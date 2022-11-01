@@ -1,0 +1,92 @@
+$darkgreen: #265C00;
+$green: #68A225;
+$lightgreen: #B3DE81;
+$white: #FDFFFF;
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid $darkgreen;
+    background-color: $lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: $darkgreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo {
+    margin: 10px 0px;
+}
+
+.menu {
+    border: 2px solid $darkgreen;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+
+    &:hover {
+        border: 2px solid $green;
+        color: $white;
+    }
+}
+
+.socialNetworks__icon {
+    width: 30px;
+}
+
+#titleImg {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.container__title {
+    border: 1px solid $lightgreen;
+    background-color: $lightgreen;
+    color: $darkgreen;
+    padding-left: 20px;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: $white;
+    color: $darkgreen;
+}
+
+.container__main {
+    padding-top: 30px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+#choice {
+    border: 2px solid $darkgreen;
+    border-radius: 5px;
+}
+
+.container__data,
+.pollution,
+.cityMap {
+    margin-top: 10px;
+}
+
+.statistics {
+    width: 60%;
+    margin: auto;
+}
+
+.footer {
+    display: grid;
+    row-gap: 10px;
+    background-color: $lightgreen;
+    color: $darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
