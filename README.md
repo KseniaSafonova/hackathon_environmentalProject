@@ -2,7 +2,7 @@
 
 Проект сделанный в рамках хакатона: сайт компании, принимающей органические отходы на переработку
 
-Технологии: JavaScript, HTML5, SCSS
+Стек: JavaScript, HTML5, SCSS
 
 ![pollution1](https://user-images.githubusercontent.com/77698266/187094165-abcb53e4-6470-4315-a207-706ad72c3d27.png)
 
